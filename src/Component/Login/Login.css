@@ -1,0 +1,155 @@
+*
+{
+    margin: 0px;
+    padding: 0;
+}
+.back
+{
+    height: 100vh;
+    width: 100%;
+    background-image: url(C:\Users\sruth\OneDrive\Desktop\React1\my-app\public\background2C.jpg);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+    height:80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+.logoh
+{
+    height:50px;
+    width:50px;
+    border-radius:50%;
+    margin-left:20px;
+    float:left;
+    object-fit:cover;
+}
+.input1
+{
+    margin:2px;
+    padding:10px;
+    height:25px;
+    width:80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius:5%;
+    border:1px solid lightgrey;
+}
+.btn
+{
+    height:40px;
+    width:90%;
+    font-weight:bold;
+    cursor:pointer;
+    display:flex;
+    margin-left:14px;
+    font-weight:bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:20px;
+    text-align:center;
+    align-items:center;
+    justify-content:center;
+    background-color:white;
+    opacity:0.8;
+    border-radius:5%;
+    margin-top: 30px;
+    border: 1px solid lightgrey;
+}
+.formContainer
+{
+    padding-left:15px;
+    padding-right:25px;
+    padding-top:25px;
+    padding-bottom:25px;
+    height:300px;
+    width:300px;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    font-size:25px;
+    font-weight:bold;
+    border:3px solid rgba(255, 255, 255, 0.438);
+    border-radius:5%;
+    background-color: rgb(239, 228, 228);
+    opacity: 0.8;
+}
+.login
+{
+    background-color:#ffbfa9;
+}
+.nav
+{
+    height:70px;
+    width:auto;
+    justify-content:left;
+    display: flex;
+    padding-left:10px;
+    opacity:0.7;
+    background:lightgrey;
+    padding-top: 50px;
+    position: relative;
+}
+input[type=checkbox]
+{
+    display: flex;
+    flex: none;
+    margin-left:15px;
+    border:1px solid lightgrey;
+}
+label
+{
+    display: flex;
+    align-items: center;
+    padding-left:2px; 
+    font-size:15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+h1{
+    display: flex;
+    padding-left:10px;
+    padding-top: 5px;
+    float: right;
+}
+#forgotpassword
+{
+    font-size:15px;
+    display: flex;
+    color:black;
+    display: flex;
+    justify-content: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+#signup
+{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    color:black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+.loginError
+{
+    color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 12px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left:20px;
+}
+.links
+{
+    display: flex;
+    justify-content:center;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top:30px;
+    text-decoration: underline;
+    font-size:15px;
+}

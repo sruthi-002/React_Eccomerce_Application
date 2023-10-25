@@ -1,0 +1,50 @@
+.slider
+{
+    max-width:100%;
+    height:30vh;
+    background-image:url(https://img.freepik.com/free-vector/watercolor-background_91008-33.jpg?size=626&ext=jpg);
+    background-size:cover;
+    filter: blur(1px);
+}
+.sliderContents
+{
+    height: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    text-align:center;
+}
+.slideTitle
+{
+    font-family: cursive;
+    color:black;
+    font-weight: bold;
+}
+.small
+{
+    height: 40px;
+    background-color:transparent;
+    width:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    padding: 20px;
+    border :1px solid white;
+    margin-top: 10px;
+    border-radius:3%;
+}
+.smallText
+{
+    font-size: 16px;
+    font-family:cursive;
+    padding-right: 5px;
+    color:black;
+}
+.slideimages
+{
+    height:100%;
+    width:50%;
+    object-fit: contain;
+}

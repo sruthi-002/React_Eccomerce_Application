@@ -1,0 +1,32 @@
+.footer
+{
+    margin-top: 50px;
+    height:100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    background-color: #f5f0eb;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    text-align: center;
+}
+.text
+{
+    font-family: cursive;
+    font-weight: bold;
+}
+.ptext
+{
+    font-family: cursive;
+}
+.footerimg
+{
+    height:30px;
+    width:30px;
+    object-fit:cover;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right:10px;
+    margin-top: 10px;
+}

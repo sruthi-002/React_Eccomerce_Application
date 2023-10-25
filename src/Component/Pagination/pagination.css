@@ -1,0 +1,15 @@
+.page
+{
+    padding-top: 5px;
+    display: flex;
+    justify-content: end;
+}
+.pagination
+{
+    background-color: lightgrey;
+    padding: 5px;
+    cursor: pointer;
+    margin-right: 3px;
+    opacity: 0.8;
+    border: 1px solid lightgrey;
+}
